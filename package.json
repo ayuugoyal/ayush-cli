@@ -1,15 +1,19 @@
 {
-  "name": "mycli",
+  "name": "ayuugoyal-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a intro CLI",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayuugoyal/ayush-cli"
   },
-  "keywords": [],
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": "./index.js",
   "author": "Ayush Goyal",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
